@@ -1,0 +1,24 @@
+name: MultiStateCellularAutomata2d
+version: '${project.version}'
+main: com.github.tacowasa059.multistatecellularautomata2d.MultiStateCellularAutomata2d
+api-version: 1.16
+authors: [ TACOWASA059 ]
+commands:
+  position1:
+    description: set position1 of current coordinate
+    usage: /<command>
+  position2:
+    description: set position2 of current coordinate
+    usage: /<command>
+  randomize:
+    description: Randomize the board
+    usage: /<command>
+  initialize:
+    description: initialize
+    usage: /<command>
+  TimeEvolution:
+    description: time evolution of the board
+    usage: /<command> <step_number>
+  setThreshold:
+    description: change threshold
+    usage: /<command> <value>
